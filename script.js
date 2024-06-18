@@ -1,6 +1,6 @@
-//https://api.openweathermap.org/data/2.5/weather?q={Patna}&appid={1648fcbffdc51a10649ed9064edd6b7c}
 
-const apikey= "1648fcbffdc51a10649ed9064edd6b7c";
+
+const apikey= " ";
 const apiurl= "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 
 const searchbox =document.querySelector(".search input");
