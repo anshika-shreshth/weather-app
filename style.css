@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #232526, #414345);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+   
+    overflow: hidden; 
+}
+
+.card {
+    width: 100%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; 
+    padding: 20px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    color: #333;
+    padding: 15px 25px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.search input:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.search button:hover {
+    background-color: #dcdcdc;
+    transform: scale(1.1);
+}
+
+.search button img {
+    width: 20px;
+}
+
+.weather-icon {
+    width: 100px; /* Reduced size for better fit */
+    margin-top: 20px;
+}
+
+.weather h1 {
+    font-size: 40px; /* Reduced size for better fit */
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.weather h2 {
+    font-size: 20px; /* Reduced size for better fit */
+    font-weight: 400;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 30px; /* Reduced margin for better fit */
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 30px; /* Reduced size for better fit */
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 20px; /* Reduced size for better fit */
+    margin-top: -9px;
+}
